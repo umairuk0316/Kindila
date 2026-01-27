@@ -46,6 +46,10 @@ img {
   justify-content: space-between;
   gap: 86px;
 }
+ul#menu {
+    display: none;
+  transition: transform 0.35s ease;
+}
 .list {
   list-style: none;
   display: flex;
@@ -56,6 +60,12 @@ img {
   font-weight: 400;
   color: white;
 }
+
+.list.show {
+  display: block;
+    transform: translateX(0);
+}
+
 .list li a {
   text-decoration: none;
   color: white;
