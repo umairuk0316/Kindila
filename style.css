@@ -180,13 +180,13 @@ img {
   justify-content: center;
 }
 .img123 {
-  background-image: url(/Designs/Frame\ 12\ \(4\).png);
+  background-image: url(Designs/Frame\ 12\ \(4\).png);
 }
 .img456 {
-  background-image: url(/Designs/Frame\ 10\ \(3\).png);
+  background-image: url(Designs/Frame\ 10\ \(3\).png);
 }
 .img789 {
-  background-image: url(/Designs/Frame\ 11\ \(2\).png);
+  background-image: url(Designs/Frame\ 11\ \(2\).png);
 }
 .coll {
   padding-block: 14px;
@@ -460,10 +460,10 @@ img {
   justify-content: space-between;
 }
 .styyyyy {
-  background-image: url(/Designs/Background.png);
+  background-image: url(Designs/Background.png);
 }
 .styyyyyy {
-  background-image: url(/Designs/Background\ \(1\).png);
+  background-image: url(Designs/Background\ \(1\).png);
 }
 .styyyyyyy {
   background-image: url(Designs/Background\ \(2\).png);
@@ -713,7 +713,7 @@ img {
   font-size: 16px;
 }
 .back {
-  background-image: url(/Designs/Frame\ 75.png);
+  background-image: url(Designs/Frame\ 75.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -727,7 +727,7 @@ img {
   justify-content: end;
 }
 .back-img {
-  background-image: url(/Designs/Frame\ 1\ \(1\).png);
+  background-image: url(Designs/Frame\ 1\ \(1\).png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -882,7 +882,7 @@ img {
   box-shadow: -15px 13px 4px 2px #6e0e0f;
 }
 .frameb {
-  background-image: url(/Designs/frameb.png);
+  background-image: url(Designs/frameb.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1314,7 +1314,7 @@ img {
   }
 }
 .iii {
-  background-image: url(/Designs/i\ 1.png);
+  background-image: url(Designs/i\ 1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1510,7 +1510,7 @@ img {
   margin-top: 24px;
 }
 .con6 {
-  background-image: url(/Designs/Container\ \(6\).png);
+  background-image: url(Designs/Container\ \(6\).png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
