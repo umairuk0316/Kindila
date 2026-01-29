@@ -160,7 +160,8 @@ ul#menu {
   font-size: 18px;
   font-weight: 400;
   padding-block: 15px;
-  padding-inline: 125px;
+ width: 100%;
+    text-align: center;
   background-color: #c31f21;
   border: 1px solid #c31f21;
   margin-bottom: 20px;
@@ -651,7 +652,7 @@ ul#menu {
 .card {
   min-width: 300px;
   scroll-snap-align: start;
-  background: #fff;
+  background: #FAF7F5;
   border-radius: 12px;
   padding: 20px;
   animation: scroll 5s linear infinite;
@@ -1710,7 +1711,7 @@ right: 0px;
 }
 @media (max-width: 768px) {
   .img3 {
-    grid-template-columns: repeat(1, 80%);
+    grid-template-columns: repeat(1, 90%);
     justify-content: center;
   }
   .back-style {
@@ -1805,11 +1806,14 @@ right: 0px;
 }
 @media (min-width:320px) and (max-width:767px) {
   .img3 {
-        grid-template-columns: repeat(1, 60%);
+        grid-template-columns: repeat(1, 90%);
     justify-content: center;
   }
+  .coll{
+    width: 80%;
+  }
   .content2-mid {
-   grid-template-columns: repeat(1, 50%);
+   grid-template-columns: repeat(1, 90%);
         justify-content: center;
   }
   .content2-top {
@@ -1833,11 +1837,21 @@ right: 0px;
       font-size: 14px;
     }
   }
+  .content4-right{
+    p{
+      font-size: 14px;
+    }
+  }
   .oonly-width {
     padding-inline: 10px;
   }
   .flex {
     width: 100%;
+  }
+  .flex {
+    h4 {
+        font-size: 14px;
+    }
   }
   .img1 {
     width: 100%;
@@ -2080,6 +2094,7 @@ right: 0px;
     p{
       font-size: 11px;
           color: white;
+            line-height: 2;
     }
  }
  .input{
