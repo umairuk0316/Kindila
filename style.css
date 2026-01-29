@@ -461,7 +461,6 @@ ul#menu {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   padding-inline: 15px;
   padding-block: 20px;
   height: 610px;
@@ -527,6 +526,7 @@ ul#menu {
   padding-block: 9px;
   padding-inline: 17px;
   border: 1px solid white;
+  color: white;
 }
 .addtobag {
   font-family: "Poppins", sans-serif;
@@ -536,6 +536,7 @@ ul#menu {
   padding-inline: 40px;
   background: linear-gradient(240.57deg, #c31f21 -9.27%, #6d0d0e 113.81%);
   border: 1px solid #6d0d0e;
+  color: white;
 }
 .flex3 {
   display: flex;
@@ -614,7 +615,7 @@ ul#menu {
   padding-inline: 16px;
   width: 421px;
   border-radius: 24px;
-  background-color: #faf7f5;
+  background-color: #FAF7F5;
   h4 {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -633,6 +634,10 @@ ul#menu {
   p {
     padding-top: 15px;
     padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #404040;
   }
 }
 .cards-carousel {
@@ -690,6 +695,7 @@ ul#menu {
     padding-block: 30px;
   }
 }
+
 .Now {
   color: #6d0d0e;
   font-family: "Poppins", sans-serif;
@@ -709,8 +715,11 @@ ul#menu {
   border: 1px solid #6d0d0e;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  color: #6d0d0e;
   font-weight: 400;
+}
+.input::placeholder{
+  color: #6D0D0E
+
 }
 .send {
   padding-block: 12px;
@@ -770,6 +779,9 @@ ul#menu {
   width: 100px;
   padding-top: 58px;
   margin-inline: auto;
+      display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bottom-list {
   display: flex;
@@ -797,9 +809,11 @@ ul#menu {
   }
 }
 .bottom-icons {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+     display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 178px;
+    justify-content: flex-start;
 }
 .bottom-main {
   background-color: #6e0e0f;
@@ -1645,7 +1659,7 @@ ul#menu {
     flex-wrap: wrap;
   }
   .content4 {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .faqqss {
     width: 100%;
@@ -1789,16 +1803,18 @@ right: 0px;
   }
   
 }
-@media (max-width: 540px) {
+@media (min-width:320px) and (max-width:767px) {
   .img3 {
-    grid-template-columns: repeat(1, 100%);
-  }
-  .content2-mid {
-    grid-template-columns: repeat(1, 80%);
+        grid-template-columns: repeat(1, 60%);
     justify-content: center;
   }
+  .content2-mid {
+   grid-template-columns: repeat(1, 50%);
+        justify-content: center;
+  }
   .content2-top {
-    
+     flex-direction: column;
+    gap: 30px;
     h1 {
       font-size: 25px;
     }
@@ -1891,7 +1907,7 @@ right: 0px;
     font-size: 12px;
   }
   .input {
-    padding-left: 0;
+    padding-left: 10px;
   }
   .bottom-text {
     flex-wrap: wrap;
@@ -1904,6 +1920,20 @@ right: 0px;
     grid-template-columns: repeat(1, 1fr);
   }
   .box {
+        padding-block: 98px;
+    padding-inline: 61px;
+    border-radius: 20px;
+    width: 517px;
+    background-color: transparent;
+    opacity: 70%;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgb(255 255 255);
+    color: white;
+    backdrop-filter: blur(220px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     h1 {
       font-size: 25px;
     }
@@ -2033,5 +2063,62 @@ right: 0px;
     .hea-fle{
       padding-left: 20px;
     }
+    .back-style {
+        padding-block: 45px;
+    padding-inline: 27px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 710px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    h1{
+      font-size: 20px;
+          color: white;
+    }
+    p{
+      font-size: 11px;
+          color: white;
+    }
  }
+ .input{
+      width: 182px;
+    padding-block: 4px;
+    padding-left: 8px;
+    border: 1px solid white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+ }
+ .input::placeholder{
+  color: white;
+ }
+ .send{
+  padding-block: 3px;
+    padding-inline: 7px;
+    background: white;
+    border: 1px solid #6d0d0e;
+    color: #820E1F;
+    border: 1px solid white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+ .Now{
+  font-size: 22px;
+      color: white;
+ }
+ .send{
+  font-size: 14px;
+ }
+ .bottom-list{
+  flex-direction: column;
+ }
+ .bottom-text{
+  flex-direction: column;
+    gap: 48px;
+ }
+ }
+   
 
